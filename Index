@@ -97,8 +97,16 @@
     <section class="map">
       <h2>Ubicación</h2>
       <p>Estamos en el centro de Bahía Blanca. A dos cuadras de la plaza, frente al Hospital Privado y a una cuadra del CREO.</p>
-      <iframe src="https://www.google.com/maps?q=Las+Heras+157,+Bahía+Blanca,+Argentina&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+<iframe 
+  src="https://www.google.com/maps?q=Las+Heras+157,+Bahía+Blanca,+Argentina&output=embed"
+  width="100%" 
+  height="400" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</section>
 
     <section>
       <h2>Contacto</h2>
