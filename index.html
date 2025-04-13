@@ -1,63 +1,110 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Duomo Appart - Bahía Blanca</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background-color: #333; color: #fff; padding: 20px; text-align: center; }
-    section { padding: 20px; max-width: 900px; margin: auto; }
-    h2 { color: #333; }
-    .galeria { display: flex; flex-wrap: wrap; gap: 10px; }
-    .galeria img { width: 100%; max-width: 280px; border-radius: 8px; }
-    ul { list-style: none; padding: 0; }
-    ul li::before { content: "✓ "; color: green; }
-    iframe { width: 100%; height: 300px; border: 0; border-radius: 8px; }
-    .whatsapp { display: block; text-align: center; margin: 30px 0; }
-    .whatsapp a { background-color: #25D366; color: white; padding: 15px 25px; text-decoration: none; font-size: 18px; border-radius: 5px; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .map {
+      margin: 2rem 0;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Duomo Appart</h1>
-    <p>Tu alojamiento en Bahía Blanca</p>
+    <p>Alojamiento moderno en el centro de Bahía Blanca</p>
   </header>
 
-  <section>
-    <h2>Sobre el alojamiento</h2>
-    <p>Duomo Appart es un espacio cómodo, moderno y equipado para disfrutar tu estadía en Bahía Blanca, ya sea por trabajo o descanso.</p>
-  </section>
+  <div class="container">
+    <section>
+      <h2>Bienvenidos</h2>
+      <p>Disfrutá de una estadía cómoda y moderna en Duomo Appart, ubicado en el corazón de Bahía Blanca. Nuestro departamento está totalmente equipado para hacerte sentir como en casa, ya sea por viaje de negocios o turismo.</p>
+    </section>
 
-  <section>
-    <h2>Galería</h2>
-    <div class="galeria">
-      <img src="https://via.placeholder.com/280x180" alt="Foto 1">
-      <img src="https://via.placeholder.com/280x180" alt="Foto 2">
-      <img src="https://via.placeholder.com/280x180" alt="Foto 3">
-    </div>
-  </section>
+    <section>
+      <h2>Galería</h2>
+      <div class="gallery">
+        <img src="IMG-20250117-WA0019.jpg" alt="Living comedor">
+        <img src="IMG-20250117-WA0034.jpg" alt="Cocina equipada">
+        <img src="IMG-20250117-WA0014.jpg" alt="Dormitorio principal">
+        <img src="IMG-20250117-WA0030.jpg" alt="Baño moderno">
+        <img src="IMG-20250117-WA0029.jpg" alt="Vista del balcón">
+        <img src="IMG-20250117-WA0023.jpg" alt="Comedor luminoso">
+      </div>
+    </section>
 
-  <section>
-    <h2>Servicios</h2>
-    <ul>
-      <li>Wi-Fi gratis</li>
-      <li>Aire acondicionado</li>
-      <li>Cocina equipada</li>
-      <li>Ropa de cama y toallas</li>
-      <li>Smart TV</li>
-      <li>Estacionamiento</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Servicios</h2>
+      <ul>
+        <li>WiFi gratuito</li>
+        <li>TV con cable</li>
+        <li>Cocina completa</li>
+        <li>Ropa blanca</li>
+        <li>Aire acondicionado y calefacción</li>
+        <li>Balcón con vista</li>
+        <li>Ubicación céntrica</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Ubicación</h2>
-    <iframe src="https://www.google.com/maps?q=Bah%C3%ADa+Blanca&output=embed"></iframe>
-  </section>
+    <section class="map">
+      <h2>Ubicación</h2>
+      <p>Estamos en el centro de Bahía Blanca. Cerca de todo.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.475368520155!2d-62.27021852341541!3d-38.71824878534857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda3553d6c4a2b%3A0x65b25c64f946f7b3!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1712942524205!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 
-  <section class="whatsapp">
-    <a href="https://wa.me/5492910000000" target="_blank">Contactar por WhatsApp</a>
-  </section>
+    <section>
+      <h2>Contacto</h2>
+      <p>¿Querés reservar o hacer una consulta? Escribinos por WhatsApp:</p>
+      <a class="whatsapp-button" href="https://wa.me/5492910000000" target="_blank">Contactar por WhatsApp</a>
+    </section>
+  </div>
 </body>
 </html>
