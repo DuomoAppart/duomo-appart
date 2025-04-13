@@ -66,7 +66,7 @@
   <div class="container">
     <section>
       <h2>Bienvenidos</h2>
-      <p>Disfrutá de una estadía cómoda y moderna en Duomo Appart, ubicado en el corazón de Bahía Blanca. Nuestro departamento está totalmente equipado para hacerte sentir como en casa, ya sea por viaje de negocios o turismo.</p>
+      <p>Disfrutá de una estadía cómoda y moderna en Duomo Appart, ubicado en el corazón de Bahía Blanca. Nuestro departamento está totalmente equipado para hacerte sentir como en casa, ya sea por viaje de negocios, turismo o salud.</p>
     </section>
 
     <section>
@@ -96,14 +96,14 @@
 
     <section class="map">
       <h2>Ubicación</h2>
-      <p>Estamos en el centro de Bahía Blanca. Cerca de todo.</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.475368520155!2d-62.27021852341541!3d-38.71824878534857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda3553d6c4a2b%3A0x65b25c64f946f7b3!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1712942524205!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p>Estamos en el centro de Bahía Blanca. A dos cuadras de la plaza, frente al Hospital Privado y a una cuadra del CREO.</p>
+      <iframe src="https://www.google.com/maps?q=Las+Heras+157,+Bahía+Blanca,+Argentina&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <section>
       <h2>Contacto</h2>
       <p>¿Querés reservar o hacer una consulta? Escribinos por WhatsApp:</p>
-      <a class="whatsapp-button" href="https://wa.me/5492910000000" target="_blank">Contactar por WhatsApp</a>
+      <a class="whatsapp-button" href="https://wa.me/5492923568864" target="_blank">Contactar por WhatsApp</a>
     </section>
   </div>
 </body>
